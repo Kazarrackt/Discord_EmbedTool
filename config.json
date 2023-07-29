@@ -1,0 +1,44 @@
+{
+    "application":{
+        "name":"KazLabs Discord Embed Tool",
+        "version":"1.0.0",
+        "description":"My Application Description",
+        "author":"Kaz Sorensen",
+        "email":"kaz@kazlabs.com"
+    },
+    "preferences":{
+        "colors":{
+            "error":"#ff0000",
+            "success":"#00ff00",
+            "warning":"#ffff00",
+            "info":"#0000ff",
+            "default":"#ffffff",
+            "processing":"#00ffff"
+        },
+        "discord":{
+            "name":"KazLabs",
+            "avatar":"https://kazlabs.com/images/logo.png",
+            "url":"https://kazlabs.com",
+            "color":"#00ffff",
+            "admins":[
+                "100566200316088320",
+                "173249270370009088"
+            ],
+            "channels":[
+                "995209079670714480",
+                "174703322941489161"
+            ],
+            "banned":[
+            ]
+        }
+    },
+    "server":{
+        "port":3000,
+        "host":"localhost",
+        "protocol":"http"
+    },
+    "api":{
+        "token":"",
+        "url":"https://discordapp.com/api/webhooks/"
+    }
+}
